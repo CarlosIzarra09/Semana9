@@ -8,7 +8,7 @@ spring:
         git:
           uri: https://github.com/CarlosIzarra09/Semana9.git
           searchPaths: config-data
-          username: ${GIT_USER}
+          user-name: ${GIT_USER}
           password: ${GIT_PASSWORD}
           default-label: "master"
   security:
